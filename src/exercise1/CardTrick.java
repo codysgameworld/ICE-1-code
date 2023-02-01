@@ -40,7 +40,7 @@ public class CardTrick {
         // search the hand for the user's card
         for (Card card : hand) {
             if (card.getValue()==userCard.getValue() & card.getSuit()==userCard.getSuit()) {
-                System.out.println("Congratulations, you guessed right!");
+                printInfo();
                 break;
             }
             else {
@@ -60,19 +60,18 @@ public class CardTrick {
         System.out.println("Congratulations, you guessed right!");
         System.out.println();
         
-        System.out.println("My name is Paul, but you can call me prof, Paul or sir");
+        System.out.println("My name is Cody");
         System.out.println();
         
         System.out.println("My career ambitions:");
-        System.out.println("-- Be more active on LinkedIn");
-        System.out.println("-- Have a semester with no violations of academic integrity!");
+        System.out.println("-- Get a job as a software developer");
+        System.out.println("-- Be happy");
 	System.out.println();	
 
         System.out.println("My hobbies:");
-        System.out.println("-- Investing");
-        System.out.println("-- Cooking");
-        System.out.println("-- Reading/Watching TV");
-        System.out.println("-- Riding my motorcycle");
+        System.out.println("-- Sports");
+        System.out.println("-- Video Games");
+        System.out.println("-- Fashion");
 
         System.out.println();
         
